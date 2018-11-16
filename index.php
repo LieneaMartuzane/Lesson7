@@ -1,4 +1,5 @@
 <?php
+include_once 'db.php';
 include_once 'components/heder.php';
 $page = isset($_GET['page']) ? $_GET['page'] :0;
 $page = $_GET['page'];
